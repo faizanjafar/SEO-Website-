@@ -1,0 +1,214 @@
+
+:root {
+    --primary-color: #8300e9;
+    --para: rgba(0, 0, 0, 0.7);
+    --black: #222;
+    --purple:#8300E9;
+    --white-color: #fff;
+    --Relway: 'Raleway', sans-serif;
+    --Poppins: 'Poppins', sans-serif;
+    --Roboto: 'Roboto', sans-serif;
+    --bg: linear-gradient(100deg,rgba(224,43,32,0.53) 0%,#8300e9 100%)!important;   
+    --seo-bg:linear-gradient(130deg,#8300e9 25%,#f96031 100%)!important;
+}
+
+
+
+
+.pakistan-page-header{
+    background-image: url(../images/marketing-bg6.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    position: relative;
+    width: 100%;
+    min-height: 400px;
+    /* padding: 7rem 0rem; */
+}
+.pakistan-page-header::before{
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    background: var(--bg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: -1;   
+}
+.pakistan-page-banner .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 400px;
+}
+.pakistan-page-content h2{
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 1.8em;
+    color: var(--white-color);
+    font-family: var(--Roboto);
+}
+
+.seo-pakistan .row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--Roboto);
+}
+.seo-pakistan img{
+    margin-top: -2rem;
+    border-radius: 10px;
+}
+.line{
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+    padding: 1.3rem 0rem;
+}
+.line1 h5{
+    cursor: pointer;
+    font-size: 1.25rem;
+    letter-spacing: .2px;
+    font-weight: 600;
+    padding-top: 5px;
+    color: var(--primary-color);
+    font-family: var(--Roboto);
+}
+.line1 i{
+    background-color: rgba(202, 201, 201, 0.867);
+    border-radius: 50%;
+    color: var(--white-color) !important;
+    padding: 10px 7px 0px 7px;
+}
+.line i{
+    font-size: 1.3rem;
+    margin: 0rem 2.5rem;
+    color: var(--primary-color);
+}
+.line a,p{
+    font-size: 1rem;
+    font-weight: 500;
+    color: #f96031;
+}
+.line4 p{
+    color: var(--para);
+}
+
+.custom-shape-divider-top-1652188372 .shape-fill {
+    fill: var(--white-color);
+}
+
+
+
+
+.seo-pakistan-data{
+    margin-top: 6rem;
+}
+.seo-pakistan-data p{
+    color: var(--para);
+    font-size: .95rem;
+    font-weight: 500;
+    line-height: 1.8;
+    padding-right: 1rem;
+}
+
+.data-content h3{
+    font-size: 1.5rem;
+    font-variant: small-caps;
+    color: #f92c8b;
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+
+.data-content form input[type ="text"]{
+    padding: .8rem;
+    margin-bottom: 1rem;
+    font-size: .85rem;
+    font-weight: 500;
+    color: var(--purple);
+    background-color: #eee;
+    border: none !important;
+    border-radius: 0px !important;
+}
+.data-content form input:focus{
+    box-shadow: none !important;
+    outline: none !important;
+}
+.data-content form textarea{
+    background-color: #eee !important;
+    border: none !important;
+    outline: none !important;
+}
+.data-content form textarea:focus{
+    box-shadow: none !important;
+    outline: none !important;
+}
+.seo-button{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-top: 1.2rem;
+}
+.seo-btn{
+    background: var(--seo-bg);
+    font-variant: small-caps;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--white-color);
+    padding: .7rem 1.4rem;
+    border-radius: 0px !important;
+}
+.seo-btn:focus{
+    box-shadow: none !important;
+    outline: none !important;
+}
+.seo-btn:hover{
+    color: var(--white-color);
+}
+.previous-page a{
+    font-size: .9rem;
+    font-weight: 500;
+    font-family: var(--Roboto);
+    color: #f92c8b;
+}
+
+
+.like-page{
+    padding: 4rem 0rem;
+}
+.like-page h2{
+    padding: 1.3rem 0rem 1.8rem 0rem;
+    font-size: 3rem;
+    font-weight: 600;
+    font-family: var(--Poppins);
+    color: var(--black);
+    line-height: 1.8;
+}
+.like-page img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    cursor: pointer;
+}
+.pakistan-content{
+    padding: 1.6rem 1rem;
+    font-family: var(--Roboto);
+    box-shadow: 0px 2px 70px 0px rgb(110 130 208 / 18%);
+    cursor: pointer;
+}
+.pakistan-content h3 a{
+    font-size: 1.25rem;
+    font-weight: 600;
+    font-family: var(--Roboto);
+    color: var(--purple) !important;
+    line-height: 1.8;
+}
+.pakistan-content p{
+    color: #f92c8b;
+}
+
+

@@ -1,0 +1,66 @@
+
+
+:root {
+    --primary-color: #8300e9;
+    --para: rgba(0, 0, 0, 0.7);
+    --black: #222;
+    --white-color: #fff;
+    --Relway: 'Raleway', sans-serif;
+    --Poppins: 'Poppins', sans-serif;
+    --Roboto: 'Roboto', sans-serif;
+}
+
+.affiliat-page-header{
+    background-image: url(../images/marketing-bg6.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 6.5rem 0rem;
+    background-color: var(--primary-color);
+    overflow-x: hidden;
+}
+.affiliat-page-banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.affiliat-project .row{
+    margin-right: calc(-.0 * var(--bs-gutter-x)) !important;
+    margin-left: calc(-.0 * var(--bs-gutter-x)) !important;
+}
+.affiliat-project{
+    overflow: hidden;
+}
+
+.affiliat-page-content h2{
+    font-size: 52px;
+    font-weight: 600;
+    color: var(--white-color);
+    font-family: var(--Poppins);
+    line-height: 1.8em;
+}
+.affiliat-page-content p{
+    color: var(--white-color);
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: var(--Poppins);
+}
+.affiliat-img-content h3{
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-family: var(--Roboto);
+    color: var(--para);
+    margin: 1rem 0rem .6rem 0rem;
+}
+.affiliat-img-content p{
+    font-size: .88rem;
+    line-height: 1.6;
+    font-weight: 400;
+    padding: 0rem .2rem;
+    color: var(--para);
+}
